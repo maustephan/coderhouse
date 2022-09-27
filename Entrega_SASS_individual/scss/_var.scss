@@ -1,0 +1,14 @@
+$title: normal 3rem 'Open Sans', sans-serif;
+
+$subtitle: 2.2rem 'Arial';
+
+$cor: #ffb90f;
+
+@mixin cards {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0,0,255, $alpha: 0.5);
+  border: 1px solid black;
+  margin: 15px;
+}
+

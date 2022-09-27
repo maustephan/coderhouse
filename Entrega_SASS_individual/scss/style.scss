@@ -1,0 +1,25 @@
+@import "_var.scss";
+
+main{
+  @include cards;
+  & h1{
+    font:$title;
+  }
+  .cards{
+    margin: 15px;
+    h2{
+      color:blue;
+      }
+
+    & p{
+      margin: 10px;
+      color: black;
+    }
+
+    background-color: $cor;
+    &.card__one{
+      font:$subtitle;
+
+    }
+  }
+}

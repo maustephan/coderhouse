@@ -1,0 +1,18 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 255, 0.5);
+  border: 1px solid black;
+  margin: 15px; }
+  main h1 {
+    font: normal 3rem "Open Sans", sans-serif; }
+  main .cards {
+    margin: 15px;
+    background-color: #ffb90f; }
+    main .cards h2 {
+      color: blue; }
+    main .cards p {
+      margin: 10px;
+      color: black; }
+    main .cards.card__one {
+      font: 2.2rem "Arial"; }
